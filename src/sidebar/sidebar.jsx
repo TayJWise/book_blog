@@ -6,7 +6,7 @@ export default function Sidebar() {
             <div className="sidebarItem">
                 <span className="sidebarTitle">ABOUT ME</span>
                 <img 
-                src="https://images.pexels.com/photos/2868441/pexels-photo-2868441.jpeg?auto=compress&cs=tinysrgb&w=800" alt="" />
+                src="https://images.pexels.com/photos/2868441/pexels-photo-2868441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna 
@@ -26,6 +26,12 @@ export default function Sidebar() {
                     <li className="sidebarListItem">Romance</li>
                     <li className="sidebarListItem">Nonfiction</li>
                 </ul>
+            </div>
+            <div className="sidebarItem">
+                <span className="sidebarTitle">CONTACT ME</span>
+                <div className="sidebarSocial">
+                    {/*eventually will do this*/}
+                </div>
             </div>
         </div>
     )
