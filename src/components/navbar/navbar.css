@@ -8,6 +8,7 @@
     align-items: center;
     font-family: 'Poppins', sans-serif;
     color: #444;
+    z-index: 999;
 }
 
 .navCenter{
