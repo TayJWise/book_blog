@@ -37,3 +37,33 @@
 .sidebarItem > p{
     padding: 30px;
 }
+
+.sidebarList{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.sidebarListItem{
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.sidebarSocial{
+    margin-top: 15px;
+    width: 425px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebarSocial > a {
+    justify-content: center;
+    display: flex;
+}
+
+.sidebarImg {
+    width: 25%;
+    cursor: pointer;
+}

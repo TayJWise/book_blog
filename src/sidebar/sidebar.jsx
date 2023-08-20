@@ -30,7 +30,9 @@ export default function Sidebar() {
             <div className="sidebarItem">
                 <span className="sidebarTitle">CONTACT ME</span>
                 <div className="sidebarSocial">
-                    {/*eventually will do this*/}
+                    <a href="https://www.linkedin.com/in/taylor-wise-664a91248/" target="_blank">
+                        <img className="sidebarImg" src="https://img.icons8.com/?size=512&id=8808&format=png" alt="" />
+                    </a>
                 </div>
             </div>
         </div>
